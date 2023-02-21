@@ -1,0 +1,70 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(loginWall.jpg) repeat;
+}
+
+.pytanie{
+    font-size: 21px;
+    color: #f5fbf2;
+}
+
+.edit{
+    color: #0afffa;
+}
+
+.edycja{
+    margin: 0 10px;
+    font-size: 18px;
+    color: #FB667A;
+}
+
+.login-box{
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #FB667A;
+    margin-bottom: 50px;
+    padding: 13px 0
+}
+
+.textbox{
+    width: 250%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #FB667A;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    float: left;
+    margin: 0 10px
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #FB667A;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+}
